@@ -41,10 +41,10 @@ body {
 }
 
 .userInfoContainer > p {
-    width: 270px;
-    padding: 10px;
-    font-size: small;
-text-align: center;
+  width: 270px;
+  padding: 10px;
+  font-size: small;
+  text-align: center;
 }
 
 button {
@@ -57,36 +57,44 @@ button {
 .userStatContainer {
   margin-top: 30px;
   width: 100%;
-  height: 90px;
   display: inline-block;
   background-color: #1f354c;
 }
-
-.userStatItem {
-  margin-top: 25px;
+.userStatItem1,
+.userStatItem2,
+.userStatItem3 {
+  width: 31%;
+  height: 90px;
+  text-align: center;
   display: inline-block;
-  margin-left: 10px;
-  margin-right: 30px;
 }
 
-.userStatItem > img {
+.userStatItem1,
+.userStatItem2,
+.userStatItem3 > img {
   margin-right: 10px;
 }
 
-.stat > p {
-    color: red;
-}
-
-.stat > p1 {
-    color: white;
+.userStatItem1,
+.userStatItem2 {
+  border-right-style: solid;
+  border-right-color: #365b83;
+  border-right-width: 2px;
 }
 
 .stat {
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
   display: inline-block;
 }
 
-.userStatItem > p {
+.stat > p {
   color: red;
+}
+
+.stat > p1 {
+  color: white;
 }
 
 .userCard > * {
